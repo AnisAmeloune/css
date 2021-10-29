@@ -1,0 +1,42 @@
+.flexandsize{
+  display: flex;
+  flex-flow: wrap ;
+  justify-content: center ;
+  justify-content: space-evenly;
+
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 20px;
+}
+
+/* .avatar { 
+  height: 1000px;
+}
+*/
+
+.text{
+  font-family: 'Lora', serif;
+font-family: 'Pacifico', cursive;
+}
+
+.ol{
+  width: 50% ;
+  padding-left: 100px;
+}
+
+.text2{
+  display : flex ;
+  justify-content: space-between;
+  
+}
+
+.text1{
+  font-family: 'Lora', serif;
+font-family: 'Pacifico', cursive;
+height: vh;
+}
