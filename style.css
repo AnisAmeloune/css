@@ -1,3 +1,7 @@
+.body {
+  margin:0;
+}
+
 .flexandsize{
   display: flex;
   flex-flow: wrap ;
@@ -12,6 +16,7 @@
   justify-content: center;
   font-family: 'Pacifico', cursive;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* .avatar { 
@@ -23,7 +28,9 @@
   font-family: 'Lora', serif;
 font-family: 'Pacifico', cursive;
 }
-
+img{
+  object-fit: cover;
+}
 .ol{
   width: 50% ;
   padding-left: 100px;
@@ -39,4 +46,39 @@ font-family: 'Pacifico', cursive;
   font-family: 'Lora', serif;
 font-family: 'Pacifico', cursive;
 height: vh;
+}
+
+.hey {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  float: left;
+  font-family: 'Lora', serif;
+font-family: 'Pacifico', cursive;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
